@@ -47,8 +47,8 @@ example();
 
 async function loginlogoutFlipkart(){
   try{
-    const username = "zinjurdepratik.pz@gmail.com";
-    const password = "Pratik@18";
+    const username = "gmail.com";
+    const password = "password";
     await driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input")).sendKeys(username,Key.ENTER);
     await driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input")).sendKeys(password,Key.ENTER);
 
